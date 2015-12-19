@@ -97,6 +97,13 @@ our $scenario = {
             },
         },
         {
+            module => 'Text::Table::CSV',
+            code => sub {
+                my ($table) = @_;
+                Text::Table::CSV::table(rows=>$table, header_row=>1);
+            },
+        },
+        {
             module => 'Text::TabularDisplay',
             code => sub {
                 my ($table) = @_;
