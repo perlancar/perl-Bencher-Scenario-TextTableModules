@@ -1,5 +1,10 @@
 Revision history for Bencher-Scenario-TextTableModules
 
+0.03    2015-12-19 (PERLANCAR)
+
+	- Add participant: Text::Table::CSV.
+
+
 0.02    2015-12-17 (PERLANCAR)
 
 	- Add participant: Text::Table::Org.
