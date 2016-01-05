@@ -19,7 +19,7 @@ sub _make_table {
 }
 
 our $scenario = {
-
+    summary => 'Benchmark modules that generate text table',
     participants => [
         {
             module => 'Text::ANSITable',
@@ -125,8 +125,4 @@ our $scenario = {
 };
 
 1;
-# ABSTRACT: Benchmark Perl text table modules
-
-=head1 SYNOPSIS
-
- % bencher -m TextTableModules [other options]...
+# ABSTRACT:
