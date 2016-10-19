@@ -90,6 +90,27 @@ our $scenario = {
             },
         },
         {
+            module => 'Text::Table::TinyColor',
+            code => sub {
+                my ($table) = @_;
+                Text::Table::TinyColor::table(rows=>$table, header_row=>1);
+            },
+        },
+        {
+            module => 'Text::Table::TinyColorWide',
+            code => sub {
+                my ($table) = @_;
+                Text::Table::TinyColorWide::table(rows=>$table, header_row=>1);
+            },
+        },
+        {
+            module => 'Text::Table::TinyWide',
+            code => sub {
+                my ($table) = @_;
+                Text::Table::TinyWide::table(rows=>$table, header_row=>1);
+            },
+        },
+        {
             module => 'Text::Table::Org',
             code => sub {
                 my ($table) = @_;
