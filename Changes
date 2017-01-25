@@ -1,3 +1,12 @@
+0.08    2017-01-25 (PERLANCAR)
+
+	- Add participants: Text::Table::HTML, Text::Table::HTML::DataTables.
+
+        - [build] Rebuild with updated Dist::Zilla::Plugin::Bencher::Scenario
+          (0.16) to add benchmarked modules as prereq with phase=x_benchmarks,
+          type=x_benchmarks.
+
+
 0.07    2016-10-19 (PERLANCAR)
 
 	- Add participants: Text::Table::Tiny{Color,ColorWide,Wide}.
